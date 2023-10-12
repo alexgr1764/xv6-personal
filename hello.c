@@ -1,5 +1,5 @@
 // Commented lines are for xv6 or linux, respectively
-// #include "user.h"
+#include "user.h"
 // #include <stdio.h>
 // #include <stdlib.h>
 

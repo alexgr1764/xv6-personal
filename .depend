@@ -11,7 +11,7 @@ forktest.o: forktest.c types.h stat.h user.h
 fs.o: fs.c types.h defs.h param.h stat.h mmu.h proc.h spinlock.h \
  sleeplock.h fs.h buf.h file.h
 grep.o: grep.c types.h stat.h user.h
-hello.o: hello.c
+hello.o: hello.c user.h types.h
 ide.o: ide.c types.h defs.h param.h memlayout.h mmu.h proc.h x86.h \
  traps.h spinlock.h sleeplock.h fs.h buf.h
 init.o: init.c types.h stat.h user.h fcntl.h
